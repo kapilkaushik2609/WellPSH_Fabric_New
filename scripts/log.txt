@@ -1,0 +1,7 @@
+Installed chaincodes on peer:
+Package ID: proposal_1:3f2432729be6a0de05a491f942d60a5b24771e018f00492084453a5cdc733781, Label: proposal_1
+Package ID: project_1:cb5257d2dfd22fb070228d8a8c8b694f30274c0db138c43263dfe0dd08fc04ea, Label: project_1
+Package ID: asset_1:380369e3aaf176d59a4baf8ecc75da4f5333eb7a0fc004476e03e6be8ffca92f, Label: asset_1
+Package ID: pshsft_1:e12b2f28d36e0b43997066bd8aed18cd0b2a83615693d352bc3e25e26273e323, Label: pshsft_1
+Package ID: ercft_1:8fffd95b6746576fdc3db00cffd766fbd40b6eb195cc9f3da2dcfcf80489855e, Label: ercft_1
+Package ID: valuation_1:ae14e433e82fd719090c3ce86c1f0493491dbb6d476ba0e5013c543c8619b2d6, Label: valuation_1

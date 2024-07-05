@@ -1,0 +1,130 @@
+OrdererOrgs:
+  # ---------------------------------------------------------------------------
+  # Orderer
+  # ---------------------------------------------------------------------------
+  - Name: Orderer
+    Domain: hiam.hal
+    EnableNodeOUs: true
+
+    # ---------------------------------------------------------------------------
+    # "Specs" - See PeerOrgs below for complete description
+    # ---------------------------------------------------------------------------
+    Specs:
+      - Hostname: orderer
+        SANS:
+          - "localhost"
+          - "127.0.0.1"
+      - Hostname: orderer2
+        SANS:
+          - "localhost"
+          - "127.0.0.1"
+      - Hostname: orderer3
+        SANS:
+          - "localhost"
+          - "127.0.0.1"
+
+# ---------------------------------------------------------------------------
+# "PeerOrgs" - Definition of organizations managing peer nodes
+# ---------------------------------------------------------------------------
+PeerOrgs:
+  # ---------------------------------------------------------------------------
+  # Org1 - Wells PSH Company
+  # ---------------------------------------------------------------------------
+  - Name: Org1
+    Domain: org1.hiam.hal
+    EnableNodeOUs: true
+
+    Template:
+      Count: 2
+      # Start: 5
+      # Hostname: {{.Prefix}}{{.Index}} # default
+      SANS:
+        - "localhost"
+
+    Users:
+      Count: 1
+
+  # ---------------------------------------------------------------------------
+  # Org2 - Investor Company
+  # ---------------------------------------------------------------------------
+  - Name: Org2
+    Domain: org2.hiam.hal
+    EnableNodeOUs: true
+
+    Template:
+      Count: 2
+      # Start: 5
+      # Hostname: {{.Prefix}}{{.Index}} # default
+      SANS:
+        - "localhost"
+
+    Users:
+      Count: 1
+
+  # ---------------------------------------------------------------------------
+  # Org3 - Asset/Service Owner (SC Partners)
+  # ---------------------------------------------------------------------------
+  - Name: Org3
+    Domain: org3.hiam.hal
+    EnableNodeOUs: true
+
+    Template:
+      Count: 2
+      # Start: 5
+      # Hostname: {{.Prefix}}{{.Index}} # default
+      SANS:
+        - "localhost"
+
+    Users:
+      Count: 1
+
+  # ---------------------------------------------------------------------------
+  # Org4 - PSH Electric Customer
+  # ---------------------------------------------------------------------------
+  - Name: Org4
+    Domain: org4.hiam.hal
+    EnableNodeOUs: true
+
+    Template:
+      Count: 2
+      # Start: 5
+      # Hostname: {{.Prefix}}{{.Index}} # default
+      SANS:
+        - "localhost"
+
+    Users:
+      Count: 1
+
+  # ---------------------------------------------------------------------------
+  # Org5 - Banks/Payment Company (Token to $$ )
+  # ---------------------------------------------------------------------------
+  - Name: Org5
+    Domain: org5.hiam.hal
+    EnableNodeOUs: true
+
+    Template:
+      Count: 2
+      # Start: 5
+      # Hostname: {{.Prefix}}{{.Index}} # default
+      SANS:
+        - "localhost"
+
+    Users:
+      Count: 1
+
+  # ---------------------------------------------------------------------------
+  # Org6 -Auditor/Regulator (CO2 )
+  # ---------------------------------------------------------------------------
+  - Name: Org6
+    Domain: org6.hiam.hal
+    EnableNodeOUs: true
+
+    Template:
+      Count: 2
+      # Start: 5
+      # Hostname: {{.Prefix}}{{.Index}} # default
+      SANS:
+        - "localhost"
+
+    Users:
+      Count: 1

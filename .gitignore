@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules/
+
+# Fabric CA artifacts
+fabric-ca/
+
+# Cryptographic material
+crypto-config/
+
+# Connection configuration files
+connection-org*.json
+
+# Wallet directories
+Org*-wallet/
+
+# Archive files
+*.tar.gz
+
+# Channel configuration blocks
+channel*.block

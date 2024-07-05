@@ -1,0 +1,82 @@
+2024.04.05-11:55:22.067[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2024.04.05-11:55:22.282[32m info [39m [caliper] [cli-launch-manager] 	Binding specification is present, performing binding for "fabric:2.1.0"
+2024.04.05-11:55:22.289[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/hyperledger/caliper/workspace"
+2024.04.05-11:55:22.289[32m info [39m [caliper] [bind] 	User-provided arguments for npm: "-g"
+2024.04.05-11:55:22.289[32m info [39m [caliper] [bind] 	Binding for fabric@2.1.0. This might take some time...
+2024.04.05-11:55:22.290[32m info [39m [caliper] [bind] 	Using working directory: /hyperledger/caliper/workspace
+2024.04.05-11:55:22.290[32m info [39m [caliper] [bind] 	Calling npm with: install -g fabric-common@2.1.0 fabric-protos@2.1.0 fabric-network@2.1.0 fabric-ca-client@2.1.0
+2024.04.05-11:57:03.413[32m info [39m [caliper] [cli-launch-manager] 	Set workspace path: /hyperledger/caliper/workspace
+2024.04.05-11:57:03.413[32m info [39m [caliper] [cli-launch-manager] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan-v2.2/config.yaml
+2024.04.05-11:57:03.414[32m info [39m [caliper] [cli-launch-manager] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan-v2.1/network-config_2.2.yaml
+2024.04.05-11:57:03.414[32m info [39m [caliper] [cli-launch-manager] 	Set SUT type: fabric
+2024.04.05-11:57:03.463[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2024.04.05-11:57:03.463[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2024.04.05-11:57:04.067[32m info [39m [caliper] [fabric-connector] 	Initializing gateway connector compatible with installed SDK: 2.1.0
+2024.04.05-11:57:04.434[90m debug[39m [caliper] [config-validator] 	Entering validateNetwork
+2024.04.05-11:57:04.435[90m debug[39m [caliper] [config-validator] 	Entering _validateTopLevel with discovery "false" and tls "undefined"
+2024.04.05-11:57:04.440[90m debug[39m [caliper] [config-validator] 	Exiting validateNetwork
+2024.04.05-11:57:04.440[90m debug[39m [caliper] [config-validator] 	Entering validateCertificateAuthority
+2024.04.05-11:57:04.448[90m debug[39m [caliper] [config-validator] 	Exiting validateCertificateAuthority
+2024.04.05-11:57:04.448[90m debug[39m [caliper] [config-validator] 	Entering validateCertificateAuthority
+2024.04.05-11:57:04.449[90m debug[39m [caliper] [config-validator] 	Exiting validateCertificateAuthority
+2024.04.05-11:57:04.449[90m debug[39m [caliper] [config-validator] 	Entering validateCertificateAuthority
+2024.04.05-11:57:04.450[90m debug[39m [caliper] [config-validator] 	Exiting validateCertificateAuthority
+2024.04.05-11:57:04.450[90m debug[39m [caliper] [config-validator] 	Entering validateOrderer with tls "true"
+2024.04.05-11:57:04.450[90m debug[39m [caliper] [config-validator] 	Exiting validateOrderer
+2024.04.05-11:57:04.451[90m debug[39m [caliper] [config-validator] 	Entering validateOrderer with tls "true"
+2024.04.05-11:57:04.451[90m debug[39m [caliper] [config-validator] 	Exiting validateOrderer
+2024.04.05-11:57:04.451[90m debug[39m [caliper] [config-validator] 	Entering validateOrderer with tls "true"
+2024.04.05-11:57:04.451[90m debug[39m [caliper] [config-validator] 	Exiting validateOrderer
+2024.04.05-11:57:04.452[90m debug[39m [caliper] [config-validator] 	Entering validatePeer with tls "true" and eventUrl "undefined"
+2024.04.05-11:57:04.452[90m debug[39m [caliper] [config-validator] 	Exiting validatePeer
+2024.04.05-11:57:04.452[90m debug[39m [caliper] [config-validator] 	Entering validatePeer with tls "true" and eventUrl "false"
+2024.04.05-11:57:04.453[90m debug[39m [caliper] [config-validator] 	Exiting validatePeer
+2024.04.05-11:57:04.453[90m debug[39m [caliper] [config-validator] 	Entering validatePeer with tls "true" and eventUrl "false"
+2024.04.05-11:57:04.454[90m debug[39m [caliper] [config-validator] 	Exiting validatePeer
+2024.04.05-11:57:04.454[90m debug[39m [caliper] [config-validator] 	Entering validateOrganization
+2024.04.05-11:57:04.455[90m debug[39m [caliper] [config-validator] 	Exiting validateOrganization
+2024.04.05-11:57:04.455[90m debug[39m [caliper] [config-validator] 	Entering validateOrganization
+2024.04.05-11:57:04.456[90m debug[39m [caliper] [config-validator] 	Exiting validateOrganization
+2024.04.05-11:57:04.456[90m debug[39m [caliper] [config-validator] 	Entering validateOrganization
+2024.04.05-11:57:04.456[90m debug[39m [caliper] [config-validator] 	Exiting validateOrganization
+2024.04.05-11:57:04.457[90m debug[39m [caliper] [config-validator] 	Entering validateClient with validOrgs ["Org1","Org2","Org3"] and hasOrgWallet "false"
+2024.04.05-11:57:04.458[90m debug[39m [caliper] [config-validator] 	Exiting validateClient
+2024.04.05-11:57:04.458[90m debug[39m [caliper] [config-validator] 	Entering validateClient with validOrgs ["Org1","Org2","Org3"] and hasOrgWallet "false"
+2024.04.05-11:57:04.459[90m debug[39m [caliper] [config-validator] 	Exiting validateClient
+2024.04.05-11:57:04.459[90m debug[39m [caliper] [config-validator] 	Entering validateClient with validOrgs ["Org1","Org2","Org3"] and hasOrgWallet "false"
+2024.04.05-11:57:04.460[90m debug[39m [caliper] [config-validator] 	Exiting validateClient
+2024.04.05-11:57:04.460[90m debug[39m [caliper] [config-validator] 	Entering validateChannel
+2024.04.05-11:57:04.464[90m debug[39m [caliper] [config-validator] 	Exiting validateChannel
+2024.04.05-11:57:04.464[90m debug[39m [caliper] [config-validator] 	Entering _validateTopLevel with discovery "false" and tls "true"
+2024.04.05-11:57:04.465[90m debug[39m [caliper] [config-validator] 	Exiting validateNetwork
+2024.04.05-11:57:04.465[90m debug[39m [caliper] [config-validator] 	Exiting validateNetwork
+2024.04.05-11:57:04.485[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2024.04.05-11:57:04.486[32m info [39m [caliper] [connectors/v2/fabric-gateway] 	Fabric SDK version: 2.1.0; TLS: server
+2024.04.05-11:57:04.486[33m warn [39m [caliper] [connectors/v2/fabric-gateway] 	Administrative actions are not possible with Fabric SDK version: 2.1.0
+2024.04.05-11:57:04.486[90m debug[39m [caliper] [connectors/v2/fabric-gateway] 	Entering _initConnector
+2024.04.05-11:57:04.487[32m info [39m [caliper] [connectors/v2/fabric-gateway] 	Fabric SDK version: 2.1.0; TLS: server
+2024.04.05-11:57:04.487[90m debug[39m [caliper] [connectors/v2/fabric-gateway] 	Entering _prepareOrgWallets
+2024.04.05-11:57:04.487[32m info [39m [caliper] [connectors/v2/fabric-gateway] 	Creating new InMemoryWallets for organizations
+2024.04.05-11:57:04.488[90m debug[39m [caliper] [connectors/v2/fabric-gateway] 	Exiting _prepareOrgWallets
+2024.04.05-11:57:04.488[32m info [39m [caliper] [connectors/v2/fabric-gateway] 	Initializing administrators
+2024.04.05-11:57:04.488[32m info [39m [caliper] [connectors/v2/fabric-gateway] 	No admin.Org1 found in caliper configuration file - unable to perform admin options
+2024.04.05-11:57:04.488[32m info [39m [caliper] [connectors/v2/fabric-gateway] 	No admin.Org2 found in caliper configuration file - unable to perform admin options
+2024.04.05-11:57:04.488[32m info [39m [caliper] [connectors/v2/fabric-gateway] 	No admin.Org3 found in caliper configuration file - unable to perform admin options
+2024.04.05-11:57:04.488[32m info [39m [caliper] [connectors/v2/fabric-gateway] 	Completed initializing administrators
+2024.04.05-11:57:04.489[90m debug[39m [caliper] [identityHelper] 	Entering newWithNetwork
+2024.04.05-11:57:04.489[90m debug[39m [caliper] [identityHelper] 	Entering initialize
+2024.04.05-11:57:04.489[90m debug[39m [caliper] [identityHelper] 	Operating on organization Org1
+2024.04.05-11:57:04.489[90m debug[39m [caliper] [identityHelper] 	Retrieved Certificate Authority for organization Org1
+2024.04.05-11:57:04.735[90m debug[39m [caliper] [identityHelper] 	Retrieved Registrar information for organization Org1
+2024.04.05-11:57:04.735[90m debug[39m [caliper] [identityHelper] 	Entering enrollUser with enrollment ID admin
+2024.04.05-11:57:05.092[90m debug[39m [caliper] [identityHelper] 	Exiting enrollUser
+2024.04.05-11:57:05.093[90m debug[39m [caliper] [identityHelper] 	Operating on organization Org2
+2024.04.05-11:57:05.093[90m debug[39m [caliper] [identityHelper] 	Retrieved Certificate Authority for organization Org2
+2024.04.05-11:57:05.094[90m debug[39m [caliper] [identityHelper] 	Retrieved Registrar information for organization Org2
+2024.04.05-11:57:05.094[90m debug[39m [caliper] [identityHelper] 	Entering enrollUser with enrollment ID admin
+2024.04.05-11:57:05.363[90m debug[39m [caliper] [identityHelper] 	Exiting enrollUser
+2024.04.05-11:57:05.363[90m debug[39m [caliper] [identityHelper] 	Operating on organization Org3
+2024.04.05-11:57:05.364[90m debug[39m [caliper] [identityHelper] 	Retrieved Certificate Authority for organization Org3
+2024.04.05-11:57:05.364[90m debug[39m [caliper] [identityHelper] 	Retrieved Registrar information for organization Org3
+2024.04.05-11:57:05.364[90m debug[39m [caliper] [identityHelper] 	Entering enrollUser with enrollment ID admin
+2024.04.05-11:57:05.478[31m error[39m [caliper] [caliper-engine] 	Error while performing "init" step: Error: Couldn't enroll 'user' admin: Enrollment failed with errors [[{"code":19,"message":"CA 'ca.org3.hiam.hal' does not exist"}]]

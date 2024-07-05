@@ -1,0 +1,7 @@
+2024.04.05-11:51:57.154[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2024.04.05-11:51:57.314[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/home/ubuntu/WellsPSH2/caliper"
+2024.04.05-11:51:57.315[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2024.04.05-11:51:57.316[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2024.04.05-11:51:57.316[32m info [39m [caliper] [bind] 	Binding working directory: /home/ubuntu/WellsPSH2/caliper
+2024.04.05-11:51:57.316[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2024.04.05-11:52:11.804[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
